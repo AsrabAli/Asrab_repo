@@ -25,7 +25,7 @@ public class FetchDAO extends HttpServlet {
 protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 	
 	   PrintWriter outPrintWriter= resp.getWriter();
-	   //comments
+	   //dummy comments
 	   try {
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		Connection connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/secondproject","root", "asrabali");
